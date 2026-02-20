@@ -1,0 +1,5 @@
+- name: Index page
+  lineinfile:
+      path: /var/www/html/index.html
+      line: "This is my web page"
+      create: yes
