@@ -1,12 +1,12 @@
-Role Name
+Web Server
 =========
 
-A brief description of the role goes here.
+Webserver with apache installed and started. Also configured a test page.
 
 Requirements
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+Can be run on CentOS, RHEL and Debian servers.
 
 Role Variables
 --------------
@@ -25,7 +25,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: username.rolename, x: 42 }
+         - webserver
 
 License
 -------
@@ -35,4 +35,4 @@ BSD
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+Krishna Prasad, Senior Linux Engineer
